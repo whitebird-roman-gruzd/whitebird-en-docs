@@ -16,11 +16,11 @@ Documentation for integration with the WhiteBird service
 ---
 ### Required steps for exchange
 #### Initial steps:
-- User acceptance of the WhiteBird offer
+- User accepts the WhiteBird offer
 - Creation of a user account on the WhiteBird platform with up-to-date* personal data
 - Waiting for account verification _(may take up to 72 hours, usually much faster)_
 - User passes the crypto test _(required only for Belarusian citizens)_
-- Adding a payment method to the account _(relevant only for card integrations)_
+- User adds a payment method to the account _(relevant only for card integrations)_
 
 [API documentation for the above steps](./onboardingAPI/README.md)
 
@@ -29,7 +29,7 @@ Documentation for integration with the WhiteBird service
 - User selects payment method
 - Adding a wallet for crediting funds (the user must confirm wallet ownership)
 - Receiving exchange terms based on selected parameters
-- User acceptance of exchange terms
+- User accepts exchange terms from the above
 - Creating an application
 
 During execution, WhiteBird:
@@ -41,7 +41,7 @@ During execution, WhiteBird:
 - User selects assets
 - User selects payout method
 - Receiving exchange terms based on selected parameters
-- User acceptance of exchange terms
+- User accepts exchange terms from the above
 - Creating an application
 - Receiving an address for the user to transfer cryptocurrency  
 > maximum time for crediting cryptocurrency is 30 minutes!
@@ -71,7 +71,7 @@ WhiteBird SDK works based on the merchant concept. Users always make transaction
 
 Every WhiteBird partner can become a "user identification agent" for us after passing an audit by our AML department.
 
-This enables the partner’s platform to bring its users into WhiteBird without requiring additional registration in WhiteBird. In this case, the partner performs the user registration.  
+This enables the partner’s platform to bring its users into WhiteBird without requiring additional registration on WhiteBird by user itself. In this case, the partner performs the user registration.  
 WhiteBird receives all necessary registration data via **backend-to-backend** interaction over REST API, using the merchant’s API Key.
 
 ---

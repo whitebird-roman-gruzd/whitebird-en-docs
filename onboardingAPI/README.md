@@ -5,7 +5,7 @@
 For integration with partners who have a large user base with a full set of personal identity document (PID) information.
 
 ##### Description
-To carry out transactions on our platform, we need to collect PID information from users. If a partner already has the required user data, we can delegate the data collection task from users to the partner. This interaction will be formalized by an agreement, making the partner our “user identification agent.”
+To carry out transactions on our platform, we need to collect PID information from users. If a partner already has the required user data, we can delegate the data collection task from users to the partner. This interaction will be formalized by an agreement, making the partner our “identification agent.”
 
 In this case, the user registration request in our system serves as the protocol for receiving user data from the "identification agent."
 
