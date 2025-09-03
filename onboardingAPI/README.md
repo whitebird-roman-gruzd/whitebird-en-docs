@@ -31,7 +31,7 @@ If the identity document does not contain registration address information, this
 - **gender** - Gender
 - **firstNameRu** - string(255), First name in Russian (if present in PID)
 - **lastNameRu** - string(255), Last name in Russian (if present in PID)
-- **patronymic** - string(255), Middle name/Patronymic in Russian (if present in PID)
+- **patronymicRu** - string(255), Middle name/Patronymic in Russian (if present in PID)
 - **firstName** - string(255), First name in Latin characters (if present in PID)
 - **lastName** - string(255), Last name in Latin characters (if present in PID)
 
@@ -76,7 +76,7 @@ Request examples:
    "gender": "муж",
    "firstNameRu": "Джон",
    "lastNameRu": "До",
-   "patronymic": "Иванович",
+   "patronymicRu": "Иванович",
    "firstName": "John",
    "lastName": "Doe",
    "placeOfBirth": "Republic of Belarus, Minsk",
@@ -108,7 +108,7 @@ Request examples:
    "gender":"жен",
    "firstNameRu":"Джон",
    "lastNameRu":"До",
-   "patronymic":"Иванович",
+   "patronymicRu":"Иванович",
    "placeOfBirth":"Russian Federation, Jewish Autonomous Region, Birobidzhan",
    "birthDate":"1994-05-09",
    "nationality":"643",
