@@ -109,6 +109,8 @@ Request examples:
    "firstNameRu":"Джон",
    "lastNameRu":"До",
    "patronymicRu":"Иванович",
+   "firstName": "-",
+   "lastName": "-",
    "placeOfBirth":"Russian Federation, Jewish Autonomous Region, Birobidzhan",
    "birthDate":"1994-05-09",
    "nationality":"643",
@@ -124,6 +126,7 @@ Request examples:
    "registrationCity":"Nikolaevka settlement",
    "registrationStreet":"Komsomolskaya street",
    "registrationHouseAndFlat":"23-30",
+   "postCode": "-",
    "notUSTaxPayer": true,
    "agreedWithOffer": true,
    "exchangeInPersonalInterests": true
