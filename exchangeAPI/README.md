@@ -21,7 +21,7 @@
 > Currencies available for exchange.
 
 **Parameters:**
-- **clientId** - string(255), registered client ID
+- **clientId** - *optional*, string(255), registered client ID
 
 **Response:**
 - **cryptoAssets** - [`CryptoAsset`](#common-interfaces), available cryptocurrencies
@@ -94,9 +94,9 @@
 > Request for deal conditions. Quote is valid for 30 seconds - must be requested continuously. It's not allowed to create an order using an expired quote. The response contains current exchange conditions and a `quoteId`.
 
 **Parameters:**
-- `clientId` - string(255), registered client ID
-- `paymentMethod` - PaymentProviderId, which provider to use
-- `paymentMethodToken` - string(255), card token or any GUID (for custom integrations)
+- `clientId` - *optional*, string(255), registered client ID
+- `paymentMethod` - *optional*, PaymentProviderId, which provider to use
+- `paymentMethodToken` - *optional*, string(255), card token or any GUID (for custom integrations)
 - `fromAsset` - QuoteAsset, asset to exchange from
 - `toAsset` - QuoteAsset, asset to exchange to
 - `destinationCryptoAddress` - *optional*, string — **OnRamp only**, more accurate network fee estimation
