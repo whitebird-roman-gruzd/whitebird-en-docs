@@ -108,7 +108,7 @@ wbExchangeSdk.setup({
 
 ### Optional SDK configuration parameters
 
-**externalUserId** - string, should be provided by the merchant to link WhiteBird users with merchant’s users.
+**externalClientId** - string, should be provided by the merchant to link WhiteBird users with merchant’s users.
 
 **email** - string, allows pre-filling the email field to reduce user actions during WhiteBird login.
 
