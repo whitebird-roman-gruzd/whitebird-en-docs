@@ -51,7 +51,7 @@ If the identity document does not contain registration address information, this
 
 - **registrationCountry** - CountryCode, Registration country
 - **registrationRegion** - string(unlimited), Registration region
-- **residenceDistrict** - string(unlimited), Registration district
+- **registrationDistrict** - string(unlimited), Registration district
 - **registrationCity** - string(unlimited), Registration city (must include settlement name)
 - **registrationStreet** - string(unlimited), Registration street
 - **registrationHouseAndFlat** - string(100), House, building, and apartment number
@@ -91,7 +91,7 @@ Request examples:
    "personalNumber": "3029120H059PB9",
    "registrationCountry": "112",
    "registrationRegion": "Minsk region",
-   "residenceDistrict": "-",
+   "registrationDistrict": "-",
    "registrationCity": "Minsk",
    "registrationStreet": "Kriptomanov street",
    "registrationHouseAndFlat": "30/1-3",
@@ -122,7 +122,7 @@ Request examples:
    "identityDocIssuer":"MIA of Russia, Jewish Autonomous Region",
    "registrationCountry":"643",
    "registrationRegion":"Jewish Autonomous Region",
-   "residenceDistrict":"Smidovich district",
+   "registrationDistrict":"Smidovich district",
    "registrationCity":"Nikolaevka settlement",
    "registrationStreet":"Komsomolskaya street",
    "registrationHouseAndFlat":"23-30",
