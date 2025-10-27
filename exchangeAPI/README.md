@@ -190,7 +190,7 @@
 
 ### Order Status Request
 
-#### POST /api/v2/exchange/merchant/order
+#### GET /api/v2/exchange/merchant/order
 > Request to get the status of a specific **OnRamp** or **OffRamp** order.
 
 **Parameters:**
