@@ -60,6 +60,7 @@ If the identity document does not contain registration address information, this
 - **notUSTaxPayer** - bool, Not a U.S. taxpayer
 - **agreedWithOffer** - bool, User’s consent to WhiteBird offer
 - **exchangeInPersonalInterests** - bool, Confirmation that exchange is for personal interests
+- **externalClientId** - string, Optional - client identification number of the user in partner's system
 
 ### !! All fields are required !!
 

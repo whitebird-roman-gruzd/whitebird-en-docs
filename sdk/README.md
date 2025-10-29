@@ -117,8 +117,11 @@ wbExchangeSdk.setup({
 **currencyAmount** - int, allows pre-filling the currency amount for the exchange.
 
 **currencyFrom** - string from _Currency enum_. Allows pre-filling the currency to be exchanged from.
+**disableCurrencyFrom** - bool, disable currencyFrom selector, also it blocks amount field (if it was provided).
 
 **currencyTo** - string from _Currency enum_. Allows pre-filling the currency to be exchanged to.
+**disableCurrencyTo** - bool, disable currencyTo field, also it blocks cryptoWallet field (if it was provided).
+
 ```typescript
 let currencyFrom: Currency;
 let currencyTo: Currency;
@@ -144,6 +147,6 @@ enum Currency {
 **showBackButtonOnHomePage** - bool, shows a "back" button in our UI and reacts to it using the onExit callback.
 
 **onExit** - () -> void, callback to handle "back" button press.
-
+**onOrderCreated** - ({orderId, internalCryptoAddress}) -> void, callback for order creation notification for merchant.
 
 It is recommended to call ```wbExchangeSdk.cleanup()``` after finishing work with the SDK.
