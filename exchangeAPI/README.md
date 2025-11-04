@@ -149,11 +149,10 @@
 ---
 ### Buy Request – OnRamp
 
-#### POST /api/v2/exchange/merchant/buy
+#### GET /api/v2/exchange/merchant/buy
 > Request to create an order to buy cryptocurrency using fiat. **OnRamp** operation.
 
 **Parameters:**
-- `clientId` - string(255), registered client ID
 - `quoteId` - string(255), ID of the deal conditions
 
 **Response:**
@@ -173,7 +172,6 @@
 > Request to create an order to sell cryptocurrency into fiat. **OffRamp** operation.
 
 **Parameters:**
-- `clientId` - string(255), registered client ID
 - `quoteId` - string(255), ID of the deal conditions
 - `sourceAddress` - *optional* string(255), crypto address from which the funds will be sent (used to pre-check the wallet)
 
