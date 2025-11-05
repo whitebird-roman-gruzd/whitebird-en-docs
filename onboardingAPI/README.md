@@ -172,6 +172,8 @@ Not used in On/Off ramp API.
 
 #### Params:
 - **clientId** - string(255)
+- **externalClientId** - string, Optional - client identification number of the user in partner's system
+
 #### Response:
 - **accessToken** - string(unlimited)
 - **refreshToken** - string(unlimited)
