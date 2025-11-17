@@ -178,6 +178,21 @@ Not used in On/Off ramp API.
 - **accessToken** - string(unlimited)
 - **refreshToken** - string(unlimited)
 
+### Simple register request
+
+Request to obtain clientId for token/generate use but without KYC data.
+
+#### POST /api/v2/auth/merchant/client/register
+
+#### Params:
+- **email** - string(255)
+- **phone** - string(255), Optional client's phone number
+- **merchantId** - string(255)
+- **externalClientId** - string, Optional - client identification number of the user in partner's system
+
+#### Response:
+- **clientId** - string(255)
+
 #### Data types
 
 ```typescript
