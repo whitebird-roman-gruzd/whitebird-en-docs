@@ -30,19 +30,19 @@ Documentation for integration with the WhiteBird service
 - Adding a wallet for crediting funds (the user must confirm wallet ownership)
 - Receiving exchange terms based on selected parameters
 - User accepts exchange terms from the above
-- Creating an application
+- Creating an order
 
 During execution, WhiteBird:
 - Debits fiat funds from the selected payment method in favor of WhiteBird
 - Credits cryptocurrency to the specified wallet
-- Completes the application
+- Completes the order
 
 #### OffRamp (selling cryptocurrency)
 - User selects assets
 - User selects payout method
 - Receiving exchange terms based on selected parameters
 - User accepts exchange terms from the above
-- Creating an application
+- Creating an order
 - Receiving an address for the user to transfer cryptocurrency  
 > maximum time for crediting cryptocurrency is 30 minutes!
 
@@ -50,7 +50,7 @@ During execution, WhiteBird:
 - Waits for the cryptocurrency transfer
 - Waits for the required number of confirmations
 - Credits fiat funds to the selected payment method in favor of the client from WhiteBird
-- Completes the application
+- Completes the order
 
 [OnRamp/OffRamp API documentation](./exchangeAPI/README.md)
 
