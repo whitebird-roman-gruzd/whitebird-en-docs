@@ -175,7 +175,7 @@ Not used in On/Off ramp API.
 - **externalClientId** - string, Optional - client identification number of the user in partner's system
 
 #### Response:
-- **accessToken** - string(unlimited)
+- **token** - string(unlimited)
 - **refreshToken** - string(unlimited)
 
 ### Simple register request
@@ -191,7 +191,7 @@ Request to obtain clientId for token/generate use but without KYC data.
 - **externalClientId** - string, Optional - client identification number of the user in partner's system
 
 #### Response:
-- **clientId** - string(255)
+- **id** - string(255), registered clientId
 
 #### Data types
 
