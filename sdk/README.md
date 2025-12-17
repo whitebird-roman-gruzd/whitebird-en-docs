@@ -124,6 +124,16 @@ wbExchangeSdk.setup({
 
 **disableCurrencyTo** - bool, disable currencyTo field, also it blocks cryptoWallet field (if it was provided).
 
+**cryptoWallet** - string, allows pre-filling the user’s wallet field.
+
+**showBackButtonOnHomePage** - bool, shows a "back" button in our UI and reacts to it using the onExit callback.
+
+**onExit** - () -> void, callback to handle "back" button press.
+
+**onOrderCreated** - ({orderId, internalCryptoAddress}) -> void, callback for order creation notification for merchant.
+
+It is recommended to call ```wbExchangeSdk.cleanup()``` after finishing work with the SDK.
+
 ```typescript
 let currencyFrom: Currency;
 let currencyTo: Currency;
@@ -144,12 +154,3 @@ enum Currency {
     WBP, // TRC-20
 }
 ```
-**cryptoWallet** - string, allows pre-filling the user’s wallet field.
-
-**showBackButtonOnHomePage** - bool, shows a "back" button in our UI and reacts to it using the onExit callback.
-
-**onExit** - () -> void, callback to handle "back" button press.
-
-**onOrderCreated** - ({orderId, internalCryptoAddress}) -> void, callback for order creation notification for merchant.
-
-It is recommended to call ```wbExchangeSdk.cleanup()``` after finishing work with the SDK.
