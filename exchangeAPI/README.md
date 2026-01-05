@@ -378,9 +378,10 @@ interface PaymentProviderConfig {
 }
 
 interface PaymentProviderCommission {
-  buyCommission: string;  // percentage
-  sellCommision: string;  // percentage
-  bank?: string;          // optional, if commission depends on issuing bank
+    buyCommission: string;  // percentage
+    sellCommision: string;  // percentage
+    direction?: "SDK" | "EXCHANGE" | "ACCOUNTING"; // Type of the exchange operation
+    bank?: string;          // optional, if commission depends on issuing bank
 }
 
 interface PaymentSystem {
