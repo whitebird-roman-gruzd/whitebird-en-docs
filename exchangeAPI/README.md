@@ -35,7 +35,7 @@
 > List of available payment methods with their configurations.
 
 **Parameters:**
-- **clientId** - string(255), registered client ID
+- **clientId** - Optional, string(255), registered client ID
 
 **Response:**
 - **Array** - [PaymentProvider[]](#payment-provider-interfaces)
