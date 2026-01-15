@@ -19,7 +19,7 @@ Requests are authorized via the **x-api-key** header. All requests are Backend-t
 
 > List of available payment methods with their characteristics
 
-[Documentation](../exchangeAPI#providers-request)
+[Documentation](../exchangeAPI#post-apiv2exchangemerchantpaymentprovider)
 
 ---
 

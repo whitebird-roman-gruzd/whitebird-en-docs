@@ -38,7 +38,7 @@
 - **clientId** - string(255), registered client ID
 
 **Response:**
-- **Array** - [PaymentProvider[]](#paymentprovider-interfaces)
+- **Array** - [PaymentProvider[]](#payment-provider-interfaces)
 
 ---
 
