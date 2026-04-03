@@ -146,7 +146,7 @@ x-api-key
 
 In production flow, after SBER deposit creation the client must complete payment in the **SberBank mobile app:**
 
-![Снимок экрана 2026-04-02 в 16.07.56.png](SBER/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2026-04-02_%D0%B2_16.07.56.png)
+![Снимок экрана 2026-04-02 в 16.07.56.png](SBER_image/sber.png)
 
 **“A push notification has been sent to phone `+375295805525`. Open the SberBank mobile app and complete payment.”**
 
