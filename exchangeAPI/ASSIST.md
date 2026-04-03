@@ -36,7 +36,7 @@ ASSIST is a payment provider of BelarusBank. To use it, client need to bind thei
 
 ## Flow for binding card:
 
-![image.png](ASSIST/image.png)
+![image.png](ASSIST_image/image.png)
 
 # First step
 
@@ -141,11 +141,11 @@ CVV: 123
 
                                                              Enter your card details 
 
-![Screenshot 2026-03-04 at 17.24.30.png](ASSIST/Screenshot_2026-03-04_at_17.24.30.png)
+![Screenshot 2026-03-04 at 17.24.30.png](ASSIST_image/assist1.png)
 
                     3ds will be automatically substituted. You must click on the “Confirm” button
 
-![Screenshot 2026-03-04 at 17.24.36.png](ASSIST/Screenshot_2026-03-04_at_17.24.36.png)
+![Screenshot 2026-03-04 at 17.24.36.png](ASSIST_image/assist2.png)
 
               After completing the card binding, you will be redirected to the returnUrl you specified
 
