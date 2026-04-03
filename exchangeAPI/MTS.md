@@ -15,7 +15,7 @@
 
 ## Flow for binding card:
 
-![image.png](MTS/image.png)
+![image.png](MTS_image/image.png)
 
 ## First step
 
@@ -110,7 +110,7 @@ Number: 4469157300098872
 
                                                                 Enter card details
 
-![Снимок экрана 2026-03-30 в 22.41.40.png](MTS/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2026-03-30_%D0%B2_22.41.40.png)
+![Снимок экрана 2026-03-30 в 22.41.40.png](MTS_image/mts1.png)
 
   How can I find out the result of a card binding?  
 Use webhooks from Whitebird or use the request from step four
@@ -330,7 +330,7 @@ In production flow, after order creation the client must complete payment in the
 
 **“Transfers abroad” → “Belarus” → “RUB” → Enter amount → “WhiteBird” → Enter order number → Confirm transfer.**
 
-![Снимок экрана 2026-03-31 в 10.50.08.png](MTS/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2026-03-31_%D0%B2_10.50.08.png)
+![Снимок экрана 2026-03-31 в 10.50.08.png](MTS_image/mts2.png)
 
 ## **Check order status**
 
