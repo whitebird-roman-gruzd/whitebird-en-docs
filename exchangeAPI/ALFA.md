@@ -29,7 +29,7 @@ ALFA is a payment provider of Belarus AlfaBank. To use it, client need to bind t
 
 ## Flow for binding card:
 
-![image.png](ALFA/image.png)
+![image.png](ALFA_image/image.png)
 
 # First step
 
@@ -160,11 +160,11 @@ CVV: 078
 
                                                              Enter your card details 
 
-![Screenshot 2026-03-04 at 18.40.56.png](ALFA/Screenshot_2026-03-04_at_18.40.56.png)
+![Screenshot 2026-03-04 at 18.40.56.png](ALFA_image/alfa1.png)
 
                                  Confirm 3ds verification by click on the “Success” button
 
-![Screenshot 2026-03-04 at 18.41.09.png](ALFA/Screenshot_2026-03-04_at_18.41.09.png)
+![Screenshot 2026-03-04 at 18.41.09.png](ALFA_image/alfa2.png)
 
               After completing the card binding, you will be redirected to the returnUrl you specified
 
